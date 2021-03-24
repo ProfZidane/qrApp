@@ -1,20 +1,29 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
+
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" >
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-grid class="decoration">
+    <img src="https://image.freepik.com/photos-gratuite/deux-vieux-billets-cinema-isoles_1101-2752.jpg" alt="">
+  </ion-grid>
+
+  <ion-grid class="menu bord">
+    <ion-row>
+      <ion-col class="options _1"  col-6>
+        <ion-icon class="t-i" name="qr-code-outline"></ion-icon>
+        <h5 class="t">Générer Ticket</h5>
+      </ion-col>
+      <ion-col  class="options _2" col-6>
+        <ion-icon class="t-i" name="scan-outline"></ion-icon>
+        <h5 class="t">Scanner Ticket</h5>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col  class="options _3" col-12 align='center'>
+        <ion-icon class="t-i" name="information-circle-outline"></ion-icon>
+        <h5>A propos</h5>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
